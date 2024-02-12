@@ -11,21 +11,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
-  <script>
-    (function() {
-      var proxied = window.alert;
-      window.alert = function() {
-        modal = $('<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h4 id="myModalTitle" class="modal-title">Modal title</h4></div><div class="modal-body"><p>One fine body&hellip;</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div>');
-        modal.find(".modal-body").text(arguments[0]);
-        modal.modal('show');
-      };
-    })();
-    alert("Haiii Sayangku")
-    alert("Gimana Kabar Kamu?")
-    alert("Semoga kamu baik baik ajah yahh")
-    alert("Aku cuman mau bilang")
-    alert("Aku sayang banget sama kamu")
-  </script>
   <style>
     body {
       background-image: url("wabg.jpg");
@@ -42,6 +27,21 @@
 </head>
 
 <body>
+    <script type="text/javascript">
+      (function() {
+        var proxied = window.alert;
+        window.alert = function() {
+          modal = $('<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button><h4 id="myModalTitle" class="modal-title">Modal title</h4></div><div class="modal-body"><p>One fine body&hellip;</p></div><div class="modal-footer"><button type="button" class="btn btn-default" data-dismiss="modal">Close</button></div></div></div></div>');
+          modal.find(".modal-body").text(arguments[0]);
+          modal.modal('show');
+        };
+      })();
+      alert("Haiii Sayangku");
+      alert("Gimana Kabar Kamu?");
+      alert("Semoga kamu baik baik ajah yahh");
+      alert("Aku cuman mau bilang");
+      alert("Aku sayang banget sama kamu");
+    </script>
   <h1>Happy Birthday Sayangku❤️</h1>
 
   <header>
